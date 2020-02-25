@@ -8,7 +8,8 @@ Instagram clone
 ### back-end
 - [x] Create account
 - [x] Request Secret
-- [ ] Confirm Secret (login) 💪🏻하는 중!
+- [x] Confirm Secret (login) 
+💪🏻하는 중!
 - [ ] Like / Unlike a photo
 - [ ] Comment on a photo
 - [ ] Search by user
