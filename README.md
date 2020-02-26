@@ -10,8 +10,8 @@ Instagram clone
 - [x] Request Secret
 - [x] Confirm Secret (login) 
 - [x] Like / Unlike a photo
-- [ ] Comment on a photo 💪🏻하는 중!
-- [ ] Search by user
+- [x] Comment on a photo 
+- [ ] Search by user 💪🏻하는 중!
 - [ ] Search by location
 - [ ] See user profile
 - [ ] Follow User / Unfollow User
