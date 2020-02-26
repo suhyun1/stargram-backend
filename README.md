@@ -9,9 +9,8 @@ Instagram clone
 - [x] Create account
 - [x] Request Secret
 - [x] Confirm Secret (login) 
-💪🏻하는 중!
-- [ ] Like / Unlike a photo
-- [ ] Comment on a photo
+- [x] Like / Unlike a photo
+- [ ] Comment on a photo 💪🏻하는 중!
 - [ ] Search by user
 - [ ] Search by location
 - [ ] See user profile

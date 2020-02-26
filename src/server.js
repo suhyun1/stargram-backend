@@ -13,9 +13,6 @@ const server = new GraphQLServer({
     schema, 
     context: ({ request }) => 
     ({request})
-    // {
-    //     console.log(request.user);
-    // }
 });    
 //context는 resolver들 사이에서 정보를 공유할 때 사용
 
