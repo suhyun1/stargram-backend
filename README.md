@@ -11,10 +11,11 @@ Instagram clone
 - [x] Confirm Secret (login) 
 - [x] Like / Unlike a photo
 - [x] Comment on a photo 
-- [ ] Search by user 💪🏻하는 중!
-- [ ] Search by location
-- [ ] See user profile
-- [ ] Follow User / Unfollow User
+- [x] Search User 
+- [x] Search Post by location or caption
+- [ ] Follow User 💪🏻하는 중!
+- [ ] Unfollow User
+- [ ] See user profile 
 - [ ] See the full photo
 - [ ] Edit my profile
 - [ ] Upload a photo
