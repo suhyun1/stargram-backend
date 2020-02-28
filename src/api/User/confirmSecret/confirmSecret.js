@@ -8,6 +8,13 @@ export default {
             const user = await prisma.user({email});
 
             if (user.loginSecret === secret){
+                //한번 확인하고 지움
+                await prisma.updateUser({
+                    where: {id: user.id}, 
+                    data:{
+                        loginSecret:''
+                    }
+                });
                 return  generateToken(user.id);
             }else{
                 throw Error("wrong email/secret combination");

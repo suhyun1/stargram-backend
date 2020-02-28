@@ -13,9 +13,8 @@ Instagram clone
 - [x] Comment on a photo 
 - [x] Search User 
 - [x] Search Post by location or caption
-- [ ] Follow User 💪🏻하는 중!
-- [ ] Unfollow User
-- [ ] See user profile 
+- [x] Follow / Unfollow User
+- [ ] See user profile 💪🏻하는 중!
 - [ ] See the full photo
 - [ ] Edit my profile
 - [ ] Upload a photo
