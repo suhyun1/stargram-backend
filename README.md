@@ -15,9 +15,10 @@ Instagram clone
 - [x] Search Post by location or caption
 - [x] Follow / Unfollow User
 - [x] Edit my profile 
-- [x] See user profile 
+- [x] See user profile
 - [x] See my profile 
-- [ ] See the full photo💪🏻하는 중!
+- [x] See the full photo
+💪🏻하는 중!
 - [ ] Upload a photo
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
