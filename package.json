@@ -8,6 +8,8 @@
     "@babel/core": "^7.8.4",
     "@babel/node": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
+    "babel-traverse": "^6.26.0",
+    "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.2.0",
     "graphql-tools": "^4.0.7",
     "graphql-yoga": "^1.18.3",
