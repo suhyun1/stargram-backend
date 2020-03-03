@@ -5,7 +5,7 @@ Instagram clone
 
 ## 기능
 
-### back-end
+### Resolvers
 - [x] Create account
 - [x] Request Secret
 - [x] Confirm Secret (login) 
@@ -18,8 +18,9 @@ Instagram clone
 - [x] See user profile
 - [x] See my profile 
 - [x] See the full photo
-💪🏻하는 중!
-- [ ] Upload a photo
+- [x] Upload a photo 💪🏻하는 중!
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
-
+- [ ] See rooms
+- [ ] Send Private Message
+- [ ] Receive Private Message (realtime)

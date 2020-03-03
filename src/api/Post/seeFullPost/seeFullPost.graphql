@@ -1,9 +1,9 @@
-type FullPost {
-  post: Post!
-  comments: [Comment!]!
-  likeCount: Int!
-}
+# type FullPost {
+#   post: Post!
+#   files: [File!]!
+#   comments: [Comment!]!
+# }
 
 type Query {
-    seeFullPost(id: String!): FullPost!
+    seeFullPost(id: String!): Post!
 }
