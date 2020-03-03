@@ -1,12 +1,15 @@
 type User {
   id: ID!
-  username: String! 
-  email: String! 
-  firstName: String 
-  lastName : String
+  username: String!
+  email: String!
+  firstName: String
+  lastName: String
+  fullName: String #computed field
   bio: String
-  following: [User!]! 
-  followers: [User!]! 
+  isFollowing: Boolean! #computed field
+  isSelf: Boolean! #computed field
+  following: [User!]!
+  followers: [User!]!
   posts: [Post!]!
   likes: [Like!]!
   comments: [Comment!]!
@@ -23,6 +26,7 @@ type Post{
   files: [File!]
   likes: [Like!]!
   comments: [Comment!]!
+  isLiked: Boolean!
 }
 
 type Like{
