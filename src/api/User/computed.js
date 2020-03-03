@@ -1,6 +1,6 @@
 import { prisma } from "../../../generated/prisma-client";
 
-//computed field들 모아둠(prisma에 없으면 자신의 서버에서 찾음)
+//computed field (prisma에 없으면 자신의 서버에서 찾음)
 export default{
     User: {
         fullName: (parent) => { //parent는 나를 call한 resolver의 부모.
@@ -33,28 +33,7 @@ export default{
             const {id: parentId} = parent;
             return user.id === parentId;
         }
-    },
-
-    Post: {
-        isLiked: async(parent, _, {request}) => {
-            const {user} = request;
-            const {id} = parent;
-            console.log(parent.id);
-            return prisma.$exists.like({
-                AND: [
-                    {
-                        user:{
-                        id: user.id
-                        }
-                    },
-                    {
-                        post:{
-                            id
-                        }
-                    }
-                ]
-            });
-
-        }
     }
+
+    
 };
