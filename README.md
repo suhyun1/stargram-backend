@@ -18,9 +18,9 @@ Instagram clone
 - [x] See user profile
 - [x] See my profile 
 - [x] See the full photo
-- [x] Upload a photo 💪🏻하는 중!
-- [ ] Edit the photo (Delete)
-- [ ] See the feed
+- [x] Upload a photo 
+- [x] Edit the photo (Delete)
+- [x] See the feed 💪🏻하는 중!
 - [ ] See rooms
 - [ ] Send Private Message
 - [ ] Receive Private Message (realtime)
