@@ -20,7 +20,7 @@ Instagram clone
 - [x] See the full photo
 - [x] Upload a photo 
 - [x] Edit the photo (Delete)
-- [x] See the feed 💪🏻하는 중!
+- [x] See the feed 
 - [ ] See rooms
-- [ ] Send Private Message
+- [x] Send Private Message 💪🏻하는 중!
 - [ ] Receive Private Message (realtime)
