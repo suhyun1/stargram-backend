@@ -21,6 +21,9 @@ Instagram clone
 - [x] Upload a photo 
 - [x] Edit the photo (Delete)
 - [x] See the feed 
-- [ ] See rooms
-- [x] Send Private Message 💪🏻하는 중!
-- [ ] Receive Private Message (realtime)
+- [x] See rooms
+- [x] See room
+- [x] Send Private Message 
+- [x] Receive Private Message (realtime) 
+
+💪🏻backend 완료!
