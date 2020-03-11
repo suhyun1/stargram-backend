@@ -1,11 +1,7 @@
-# Stargram
-Instagram clone 
+# Stargram-backend
+Instagram clone backend
 
-## 스택
-
-## 기능
-
-### Resolvers
+### 기능
 - [x] Create account
 - [x] Request Secret
 - [x] Confirm Secret (login) 
