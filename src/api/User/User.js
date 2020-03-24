@@ -3,6 +3,22 @@ import { prisma } from "../../../generated/prisma-client";
 //computed field (prisma에 없으면 자신의 서버에서 찾음)
 export default{
     User: {
+        posts: ({id}) => prisma.user({id}).posts(),
+        following: ({id}) => prisma.user({id}).following(),
+        followers: ({id}) => prisma.user({id}).followers(),
+        likes: ({id}) => prisma.user({id}).likes(),
+        comments: ({id}) => prisma.user({id}).comments(),
+        rooms: ({id}) => prisma.user({id}).rooms(),
+        followingCount: ({id}) =>
+            prisma
+                .usersConnection({ where: { followers_some: { id } } })
+                .aggregate()
+                .count(),
+        followersCount: ({ id }) =>
+            prisma
+                .usersConnection({ where: { following_none: { id } } })
+                .aggregate()
+                .count(),
         fullName: (parent) => { //parent는 나를 call한 resolver의 부모.
             // 여기서는 me에서 return한 user정보
             return `${parent.firstName} ${parent.lastName}`;

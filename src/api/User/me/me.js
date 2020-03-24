@@ -5,13 +5,8 @@ export default {
         me: async(_, __, { request, isAuthenticated}) =>{
             isAuthenticated(request);
             const {user} = request;
-            const userProfile = await prisma.user({id: user.id});
-            const posts = await prisma.user({id: user.id}).posts();
+            return await prisma.user({id: user.id});
             
-            return {
-                user: userProfile,
-                posts
-            };
         }
     }
     
