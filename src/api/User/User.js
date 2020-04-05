@@ -21,7 +21,7 @@ export default{
                 .count(),
         followersCount: ({ id }) =>
             prisma
-                .usersConnection({ where: { following_none: { id } } })
+                .usersConnection({ where: { following_some: { id } } })
                 .aggregate()
                 .count(),
         fullName: (parent) => { //parent는 나를 call한 resolver의 부모.
