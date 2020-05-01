@@ -7,6 +7,7 @@ import schema from "./schema";
 import "./passport";
 import {authenticateJwt} from "./passport";
 import { isAuthenticated } from "./middleware"
+import { uploadMiddleware, uploadController } from "./upload";
 
 const PORT = process.env.PORT || 4000;
 
@@ -18,6 +19,8 @@ const server = new GraphQLServer({
 
 server.express.use(logger("dev"));
 server.express.use(authenticateJwt);    //모든 request는 이 함수 통과
+
+server.express.post("/api/upload", uploadMiddleware, uploadController);
 
 server.start({port:PORT}, ()=>
     console.log(`Server running on http://localhost:${PORT}`)
