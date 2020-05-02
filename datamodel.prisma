@@ -2,7 +2,7 @@ type User {
   id: ID! @id
   avatar: String 
     @default(
-      value: "https://instagram.fgyd3-1.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=instagram.fgyd3-1.fna.fbcdn.net&_nc_ohc=juIw_rgxYewAX9zwtZT&oh=acf1dcb0b3fb1cb7612a056459d3ef48&oe=5EACD78F&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2"
+      value: "https://stargram2020.s3.ap-northeast-2.amazonaws.com/user_default.png"
     )
   username: String! @unique
   email: String! @unique
