@@ -5,6 +5,7 @@
   "author": "suhyun1 <suhyun7079@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
     "@babel/node": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
@@ -34,6 +35,7 @@
     "deploy": "prisma deploy",
     "generate": "prisma generate",
     "prisma": "yarn run deploy && yarn run generate",
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/server.js",
+    "build": "babel src -d build"
   }
 }
