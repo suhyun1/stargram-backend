@@ -1,4 +1,4 @@
-endpoint: "https://stargram-prisma-c795a5f15c.herokuapp.com/Stargram/prod/"
+endpoint: ${env:PRISMA_ENDPOINT}
 datamodel: datamodel.prisma
 
 generate:
