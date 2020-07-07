@@ -77,7 +77,7 @@ type Message{
 
 type Tag{
   id: ID! @id
-  name: String!
+  name: String! @unique
   post: Post! @relation(name:"TagsOfPost")
   createdAt: DateTime! @createdAt
   updatedAt: DateTime! @updatedAt
