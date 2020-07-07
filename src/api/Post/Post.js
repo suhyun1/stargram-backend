@@ -6,6 +6,7 @@ export default {
         comments: ({ id }) => prisma.post({ id }).comments(),
         user: ({ id }) => prisma.post({ id }).user(),
         likes: ({ id }) => prisma.post({ id }).likes(),
+        tags: ({ id }) => prisma.post({ id }).tags(),
         isLiked: async (parent, _, { request }) => {
             const { user } = request;
             const { id } = parent;

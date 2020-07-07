@@ -82,3 +82,11 @@ type Message{
   updatedAt: String
 }
 
+type Tag {
+  id: ID!
+  name: String!
+  post: Post!
+  postsCount: Int!
+  createdAt: String
+  updatedAt: String
+}
