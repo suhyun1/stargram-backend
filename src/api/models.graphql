@@ -32,6 +32,7 @@ type Post{
   files: [File!]
   likes: [Like!]!
   comments: [Comment!]!
+  tags: [Tag!]!
   isLiked: Boolean!
   likeCount: Int!
   commentCount: Int!
@@ -85,7 +86,7 @@ type Message{
 type Tag {
   id: ID!
   name: String!
-  post: Post!
+  posts: Post!
   postsCount: Int!
   createdAt: String
   updatedAt: String
