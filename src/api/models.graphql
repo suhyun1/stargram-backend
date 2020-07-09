@@ -86,7 +86,7 @@ type Message{
 type Tag {
   id: ID!
   name: String!
-  posts: Post!
+  posts: [Post!]!
   postsCount: Int!
   createdAt: String
   updatedAt: String
