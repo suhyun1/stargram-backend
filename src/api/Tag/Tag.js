@@ -5,7 +5,7 @@ export default {
         posts: ({ id }) => prisma.tag({ id }).posts(),
         postsCount: ({ id }) =>
             prisma
-                .postsConnection({ where: { tag: { id } } })
+                .postsConnection({ where: { tags_some: { id } } })
                 .aggregate()
                 .count(),
     }
