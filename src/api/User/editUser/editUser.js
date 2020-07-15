@@ -7,7 +7,7 @@ export default {
             const { username, email, firstName, lastName, bio, avatar} = args;
             const {user} = request;
             const exists = await prisma.$exists.user({ username });
-            if (exists) {
+            if (user.username != username && exists) {
               throw Error("This username is already taken");
             }
             return prisma.updateUser({
